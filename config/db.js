@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/myposts', function (err, database) {
+mongoose.connect('mongodb+srv://root:B8Q7BoO0B5hIxkoK@cluster0.xesev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', function (err, database) {
     if (err)
         throw err
     else {
